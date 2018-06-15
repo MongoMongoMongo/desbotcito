@@ -1,0 +1,12 @@
+{
+  "name": "desbotcito",
+  "description": "The best way to spam",
+  "version": "1.0.0",
+  "main": "desbotT.js",
+  "script": {
+    "start": "node desbotT.js"
+  },
+  "dependencies": {
+    "discord.js": "11.3.0"
+  }
+}

@@ -109,6 +109,10 @@ bot.on('message', message => {
     message.delete().catch(O_o=>{});
     message.channel.send(sayMessage);
   }
+  
+  if (message.content === message.content) {
+    message.channel.send(message.content)
+  }
 
   if (command === 'USERINFO') {
     let user;
